@@ -1,0 +1,6 @@
+package br.edu.univille.poo.jpa.repositorio;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TrabaRepository extends JpaRepository<TrabaRepository, Long> {
+}
